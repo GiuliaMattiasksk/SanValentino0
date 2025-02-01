@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif; /* Font più carino */
+}
+
+/* Sfondo rosa */
+body {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to bottom, #ffccd5, #ffe5e5); /* Sfondo sfumato */
+}
+
+/* Contenitore principale */
+.container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    gap: 20px;
+    max-width: 500px;
+    margin: 20px;
+    padding: 20px;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2); /* Effetto ombra */
+}
+
+/* GIF di Tenor */
+.container .tenor-gif-embed {
+    max-width: 250px;
+    border-radius: 10px; /* Bordi più morbidi */
+    transition: transform 0.3s ease-in-out;
+}
+
+.container .tenor-gif-embed:hover {
+    transform: scale(1.1); /* Effetto ingrandimento al passaggio del mouse */
+}
+
+/* Stile per i bottoni */
+.container .btn {
+    display: flex;
+    gap: 25px;
+    margin-top: 15px;
+}
+
+/* Bottoni con animazione */
+.btn a {
+    text-decoration: none;
+    color: #fff;
+    background: #ff8fa3; /* Rosa più vivace */
+    padding: 12px 30px;
+    border-radius: 8px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+/* Effetto hover */
+.btn a:hover {
+    background: #ff4d6d; /* Rosa più acceso */
+    transform: scale(1.1);
+}
